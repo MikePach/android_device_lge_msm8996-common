@@ -212,3 +212,6 @@ WIFI_DRIVER_FW_PATH_STA     := "/vendor/firmware/fw_bcmdhd.bin"
 
 # inherit from the proprietary version
 -include vendor/lge/msm8996-common/BoardConfigVendor.mk
+
+#qti-telephony fix
+TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
