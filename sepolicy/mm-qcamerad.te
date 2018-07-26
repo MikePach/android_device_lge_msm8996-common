@@ -11,7 +11,7 @@ allow mm-qcamerad camera_socket:sock_file { create unlink write };
 allow mm-qcamerad camera_socket:sock_file { create unlink };
 
 allow mm-qcamerad sysfs_graphics:file r_file_perms;
-<<<<<<< HEAD
+
 #gcamfix
 #allow mm-qcamerad system_server:unix_stream_socket rw_socket_perms;
 #allow mm-qcamerad sensorservice_service:service_manager find;
